@@ -1,0 +1,17 @@
+body {
+  padding: 50px;
+  font: 14px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
+
+a {
+  color: blueviolet;
+}
+
+p {
+  margin-bottom: 0px;
+}
+
+
+.message-form {
+  width: 50%
+}

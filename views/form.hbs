@@ -1,0 +1,15 @@
+<h1>New Message</h1>
+
+
+<form class="message-form" action="/new" method="POST">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="name" name="messageUser" required>
+  </div>
+  <div class="form-group">
+    <label for="message">Message</label>
+    <textarea class="form-control" id="message" name="messageText" rows="3" required></textarea>
+  </div>  
+  <button class="btn btn-success mr-2">Submit Message</button>
+  <a href="/" class="btn btn-secondary" role="button">Go Back</a>
+</form>
